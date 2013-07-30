@@ -1,0 +1,15 @@
+To do:
+	Create a game class
+		-instance of a game
+		-needs to display appropriate info to each player
+			-a players own cards, hide opponents
+		-have an ID
+		-stores all cards/player moves for  post game watching/replayability
+
+
+	Create 52 card pngs
+
+
+	HTML
+		-drag and drop functionality, cards to the board
+		
