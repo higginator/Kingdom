@@ -50,7 +50,7 @@ class Club(Card):
         else:
             print ("Invalid Move. The enemy monster does not have a club to be debuffed.")
 
-class FaceCard(Card):
+class Face_Card(Card):
     def __init__(self, health, attack):
         Card.__init__(self,health,attack)
         self.stunned = False
@@ -106,3 +106,11 @@ class Diamond(Card):
                 opponent_face_card.stunned = true
         else:
             opponent_face_card.stunned = true
+
+
+class Spade(Card):
+    def __init__(self, value):
+        self.value = value
+        self.name = str(value) + " of Spades"
+
+    def construct(self):

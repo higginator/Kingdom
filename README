@@ -7,9 +7,19 @@ To do:
 		-stores all cards/player moves for  post game watching/replayability
 
 
+	Create a player class
+		-keeps track of current hand
+		-all moves made
+		-lives
+		-alias
+		-
+
+
 	Create 52 card pngs
+		-figure out dimensions
+		-try creating in javascript on the fly
 
 
-	HTML
-		-drag and drop functionality, cards to the board
+	MISC
+		-html drag and drop functionality, cards to the board
 		
