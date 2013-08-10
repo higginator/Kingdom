@@ -3,6 +3,11 @@ from cards import *
 class Dealer:
 	def __init__(self):
 		self.deck = []
+		self.make_hearts()
+		self.make_diamonds()
+		self.make_clubs()
+		#self.make_spades()
+		#self.make_face_cards()
 
 	def make_hearts(self):
 		for i in range(2,11):
@@ -16,15 +21,15 @@ class Dealer:
 		for i in range(2,11):
 			self.deck.append(Club(0,i))
 
-	def make_spades(self):
+	#def make_spades(self):
 
-	def make_face_cards(self):
+	#def make_face_cards(self):
 
 
 
 	#initial deal of cards, 5 per player
-	def deal_cards(self, playerOne, playerTwo):
+	def deal_cards(self, player_one, player_two):
 		if (Game.current_round == 1):
 			for x in range(5):
-				PlayerOne.hand.append(deck.pop(0))
-				PlayerTwo.hand.append(deck.pop(0))
+				player_one.hand.append(deck.pop(0))
+				player_two.hand.append(deck.pop(0))

@@ -9,7 +9,7 @@ To do:
 
 	Create a player class
 		-keeps track of current hand
-		-all moves made
+		-all moves made (for game replaying later)
 		-lives
 		-alias
 		-

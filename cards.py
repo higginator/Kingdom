@@ -31,7 +31,7 @@ class Heart(Card):
 class Club(Card):
     def __init__(self, health, attack):
         Card.__init__(self,health,attack)
-        self.name = str(health) + " of Clubs"
+        self.name = str(attack) + " of Clubs"
         self.health = 0
 
     def buff(self, face_card):
@@ -113,4 +113,4 @@ class Spade(Card):
         self.value = value
         self.name = str(value) + " of Spades"
 
-    def construct(self):
+   # def construct(self):
