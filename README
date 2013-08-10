@@ -18,9 +18,11 @@ To do:
 			-a players own cards, hide opponents
 		-stores all cards/player moves for  post game watching/replayability
 
-	Player Class:
-		-alias?
-		-
+	Create a player class
+		-keeps track of current hand
+		-all moves made (for game replaying later)
+		-lives
+		-alias
 
 	Board Class:
 
