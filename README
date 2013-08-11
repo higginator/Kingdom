@@ -1,7 +1,9 @@
 To do:
 
+	---NUMBER ONE PRIORITY---
 	Figure out websockets:
 		communication between two players, over a browser, to update the state of a Game
+	---NUMBER ONE PRIORITY---
 
 	Dealer Class:
 		make_spades function
