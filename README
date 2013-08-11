@@ -1,23 +1,31 @@
 To do:
-	Create a game class
-		-instance of a game
+
+	Figure out websockets:
+		communication between two players, over a browser, to update the state of a Game
+
+	Dealer Class:
+		make_spades function
+		make_face_cards function
+		stores discarded cards for reshuffling
+
+	Card Class:
+		alter cards to handle new rules
+
+	Game Class:
 		-needs to display appropriate info to each player
 			-a players own cards, hide opponents
-		-have an ID
 		-stores all cards/player moves for  post game watching/replayability
 
-
-	Create a player class
-		-keeps track of current hand
-		-all moves made (for game replaying later)
-		-lives
-		-alias
+	Player Class:
+		-alias?
 		-
 
+	Board Class:
 
-	Create 52 card pngs
-		-figure out dimensions
-		-try creating in javascript on the fly
+	Maybe:
+		Create 52 card pngs
+			-figure out dimensions
+			-or try creating in javascript on the fly (colored rectangles)
 
 
 	MISC

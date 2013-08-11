@@ -1,7 +1,8 @@
 from cards import *
-
+from random import shuffle
 class Dealer:
 	def __init__(self):
+		#dealer class holds the deck, makes the cards, and shuffles the cards
 		self.deck = []
 		self.make_hearts()
 		self.make_diamonds()
@@ -33,3 +34,6 @@ class Dealer:
 			for x in range(5):
 				player_one.hand.append(deck.pop(0))
 				player_two.hand.append(deck.pop(0))
+
+	def shuffle_deck(self):
+		shuffle(deck)

@@ -4,6 +4,7 @@ from cards import *
 from player import *
 
 class Game:
+	#game class keeps track of instances of a game
 	def __init__(self):
 		#self.id = (Get Total Database Games) + 1
 		self.player_one = Player()

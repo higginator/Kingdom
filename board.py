@@ -1,6 +1,6 @@
 class Board:
 	def __init__(self):
-		#monster (heart,club), monster (heart,club), monster (heart,club), spade, spade, stun, stun
+		#board class keeps track of both players sides of the board, dictionaries.
 		self.player_one_side = {}
 		self.player_two_side = {}
 		self.initialize_board()
