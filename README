@@ -41,4 +41,9 @@ To do:
 
 	MISC
 		-html drag and drop functionality, cards to the board
+		-visiblity for health and attack
+			-makes calculations easier
+			-lets players know of the games standards
+			-health bar: 21/14
+			-attack bar: 8 + 3
 		
